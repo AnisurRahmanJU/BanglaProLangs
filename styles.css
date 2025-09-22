@@ -1,21 +1,30 @@
+/* Base Layout */
 body {
   font-family: 'Hind Siliguri', sans-serif;
   background: linear-gradient(to right, #f7f8fc, #eef2f3);
+  margin: 0;
+  padding: 0;
 }
+
+/* Header */
 header {
   background: linear-gradient(135deg, #0061f2, #00c6ff);
   color: white;
   padding: 80px 0;
   text-align: center;
 }
+
 header h1 {
   font-size: 2.5rem;
   font-weight: 700;
 }
+
 header p {
   font-size: 1.2rem;
   margin-top: 10px;
 }
+
+/* Buttons */
 .btn-custom {
   border-radius: 50px;
   padding: 15px 20px;
@@ -25,41 +34,88 @@ header p {
   width: 100%;
   margin: 8px 0;
 }
+
 .btn-custom:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
+
+/* Features Section */
 .features {
-  margin: 80px 0;
+  margin: 80px auto;
 }
+
 .feature-card {
+  background: white;
   border-radius: 20px;
   padding: 40px 25px;
-  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
-  background: white;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .feature-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 6px 25px rgba(0,0,0,0.2);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
+
 .feature-card h3 {
-  margin-top: 20px;
   font-weight: 700;
+  margin-bottom: 10px;
 }
+
+/* Code Block Styling */
+.code-block {
+  background: #1e1e1e;
+  color: #d4d4d4;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  overflow: auto;
+  white-space: pre-wrap;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+  height: 220px; /* Same height for all */
+  margin-top: 20px;
+}
+
+/* Syntax Highlighting */
+.code-block .keyword {
+  color: #569cd6;
+  font-weight: bold;
+}
+
+.code-block .string {
+  color: #d69d85;
+}
+
+.code-block .comment {
+  color: #6a9955;
+  font-style: italic;
+}
+
+.code-block .function {
+  color: #dcdcaa;
+}
+
+/* Footer */
 footer {
   background: #212529;
   color: #bbb;
   text-align: center;
   padding: 25px;
   margin-top: 80px;
+  font-size: 0.9rem;
 }
+
 footer a {
   color: #00c6ff;
   text-decoration: none;
 }
+
 footer a:hover {
   text-decoration: underline;
 }
