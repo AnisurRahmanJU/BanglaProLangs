@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="bn">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>বাংলা প্রোগ্রামিং ল্যাঙ্গুয়েজ</title>
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet" />
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <!-- Header -->
   <header>
-    <div class="container">
+    <div class="container text-center">
       <h1>বাংলা প্রোগ্রামিং ল্যাঙ্গুয়েজ</h1>
       <p>শিশুদের জন্য সহজ, মজার এবং আকর্ষণীয় প্রোগ্রামিং শিক্ষা</p>
-      <!-- মোবাইলে নিচে নিচে, বড় স্ক্রিনে পাশাপাশি -->
       <div class="row justify-content-center mt-4">
         <div class="col-12 col-md-auto">
           <a href="#" class="btn btn-light btn-custom">বাংলা কোড রানার</a>
@@ -34,43 +34,107 @@
   </header>
 
   <!-- Features Section -->
-  <center><section class="features container">
+  <section class="features container">
     <div class="row g-4">
+
+      <!-- বাংলা কোড রানার -->
       <div class="col-md-4">
-        <div class="feature-card">
-          <img src="https://img.icons8.com/color/96/code.png" alt="Code Runner">
-          <h3>বাংলা কোড রানার</h3>
-          <p>বাংলা কোড লিখুন এবং রান করুন। সহজ ও ইন্টার‌্যাকটিভ সিস্টেমে আউটপুট দেখুন।</p><br>
-           <img src="bcrunner.PNG">
+        <div class="feature-card d-flex flex-column h-100">
+          <div>
+            <h3>বাংলা কোড রানার</h3>
+            <p>বাংলা কোড লিখুন এবং রান করুন। সহজ ও ইন্টার‌্যাকটিভ সিস্টেমে আউটপুট দেখুন।</p>
+          </div>
+          <div class="mt-auto">
+            <div class="code-block">
+<pre><code>
+<span class="comment">// Input</span>
+<span class="keyword">ধরি</span> নাম = <span class="function">ইনপুট</span>(<span class="string">"তোমার নাম কি?"</span>);
+
+<span class="comment">// Condition</span>
+<span class="keyword">যদি</span> (নাম == <span class="string">"আনিসুর"</span>) {
+  <span class="function">দেখাও</span>(<span class="string">"হ্যালো আনিসুর!"</span>);
+} <span class="keyword">নাহলে যদি</span> (নাম == <span class="string">"লিখন"</span>) {
+  <span class="function">দেখাও</span>(<span class="string">"হ্যালো লিখন!"</span>);
+} <span class="keyword">নাহলে</span> {
+  <span class="function">দেখাও</span>(<span class="string">"ঘোড়ার ডিম! তোমার নাম কি?"</span>);
+}
+</code></pre>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- বাংলা ➝ সি কোড -->
       <div class="col-md-4">
-        <div class="feature-card">
-          <img src="https://img.icons8.com/color/96/source-code.png" alt="Bangla to C">
-          <h3>বাংলা ➝ সি কোড</h3>
-          <p>বাংলা কোডকে স্বয়ংক্রিয়ভাবে সি প্রোগ্রামে রূপান্তর করুন এবং দ্রুত শিখুন।</p><br>
-          <img src="btoc.PNG">
+        <div class="feature-card d-flex flex-column h-100">
+          <div>
+            <h3>বাংলা ➝ সি কোড</h3>
+            <p>বাংলা কোডকে স্বয়ংক্রিয়ভাবে সি প্রোগ্রামে রূপান্তর করুন এবং দ্রুত শিখুন।</p>
+          </div>
+          <div class="mt-auto">
+            <div class="code-block">
+<pre><code>
+<span class="comment">//বাংলা কোড </span>
+<span class="comment"># অন্তর্ভুক্ত &lt; স্ট্যান্ডার্ড_ইন_আউট.হেডার &gt;</span>
+
+<span class="keyword">পূর্ণ</span> <span class="function">মৌলিক</span>() {
+  <span class="keyword">পূর্ণ</span> নাম্বার;
+  <span class="function">দেখাও</span> (<span class="string">"একটি সংখ্যা নিই:"</span>);
+  <span class="function">নাও</span>(<span class="string">"%প"</span>, &amp;নাম্বার);
+  <span class="function">দেখাও</span>(<span class="string">"%প\n"</span>, নাম্বার);
+  <span class="keyword">ফেরত</span> ০;
+}
+
+<span class="comment">//বাংলা ➝ সি কোড </span>
+<span class="keyword">#include</span> &lt;stdio.h&gt;
+<span class="keyword">int</span> main() {
+   <span class="keyword">int</span> নাম্বার;
+   <span class="function">printf</span>(<span class="string">"একটি সংখ্যা নিই:"</span>);
+   <span class="function">scanf</span>(<span class="string">"%d"</span>, &amp;নাম্বার);
+   <span class="function">printf</span>(<span class="string">"%d\n"</span>, নাম্বার);
+   <span class="keyword">return</span> 0;
+}
+</code></pre>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- বাংলা প্রোগ্রামিং -->
       <div class="col-md-4">
-        <div class="feature-card">
-          <img src="https://img.icons8.com/color/96/student-center.png" alt="Bangla Programming">
-          <h3>বাংলা প্রোগ্রামিং</h3>
-          <p>বাংলা ভাষায় প্রোগ্রামিং শিখুন—লুপ, শর্ত, ফাংশনসহ আরও অনেক কিছু।</p><br>
-          <img src="bprog.PNG">
+        <div class="feature-card d-flex flex-column h-100">
+          <div>
+            <h3>বাংলা প্রোগ্রামিং</h3>
+            <p>বাংলা ভাষায় প্রোগ্রামিং শিখুন—লুপ, শর্ত, ফাংশনসহ আরও অনেক কিছু।</p>
+          </div>
+          <div class="mt-auto">
+            <div class="code-block">
+<pre><code>
+
+<span class="keyword">ধরি</span> নাম = <span class="string">"আকাশ"</span>;
+
+<span class="keyword">যদি</span> (নাম == <span class="string">"আনিছুর"</span>) {
+  <span class="function">লিখি</span>(<span class="string">"হ্যালো আনিছুর"</span>);
+} <span class="keyword">নাহলে যদি</span> (নাম == <span class="string">"লিখন"</span>) {
+  <span class="function">লিখি</span>(<span class="string">"হ্যালো লিখন"</span>);
+} <span class="keyword">নাহলে</span> {
+  <span class="function">লিখি</span>(<span class="string">"ঘোড়ার ডিম! তোমার নাম কি?"</span>);
+}
+</code></pre>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
-  </section></center>
+  </section>
 
   <!-- Footer -->
   <footer>
-    <p>তৈরি করেছেন <strong>মোঃ আনিসুর রহমান</strong> | <a href="https://github.com/AnisurrahmanJU/" target = "_blank">গিটহাব</a></p>
+    <p>তৈরি করেছেন <strong>মোঃ আনিসুর রহমান</strong> | <a href="https://github.com/AnisurrahmanJU/" target="_blank">গিটহাব</a></p>
   </footer>
 
   <!-- Bootstrap JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  <!-- Custom JS -->
-  <script src="script.js"></script>
 </body>
 </html>
