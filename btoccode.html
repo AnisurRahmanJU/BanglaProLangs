@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>বাংলা ➝ সি কোড</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <style>
+    body {
+      font-family: 'Hind Siliguri', sans-serif;
+      background: linear-gradient(to right, #f7f8fc, #eef2f3);
+    }
+
+    header {
+      background: linear-gradient(135deg, #0061f2, #00c6ff);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+    }
+
+    .info-section {
+      margin: 60px auto;
+      max-width: 1100px;
+      background: white;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .info-section h2 {
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    .info-section p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    /* Buttons */
+.btn-custom {
+  border-radius: 50px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  transition: 0.3s;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.btn-custom:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+    .btn-launch {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 30px;
+      padding: 12px 30px;
+    }
+
+    pre, code {
+      background-color: #272822;
+      color: #f8f8f2;
+      padding: 15px;
+      border-radius: 8px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.95rem;
+      display: block;
+      overflow-x: auto;
+    }
+
+    .comment {
+      color: #75715e;
+      font-style: italic;
+    }
+
+    .keyword {
+      color: #66d9ef;
+      font-weight: bold;
+    }
+
+    .string {
+      color: #e6db74;
+    }
+
+    .function {
+      color: #a6e22e;
+    }
+
+    footer {
+      background: #212529;
+      color: #bbb;
+      text-align: center;
+      padding: 25px;
+      margin-top: 80px;
+    }
+
+    footer a {
+      color: #00c6ff;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>বাংলা ➝ সি কোড</h1>
+      <p>বাংলা কোডকে স্বয়ংক্রিয়ভাবে সি প্রোগ্রামে রূপান্তর করার প্ল্যাটফর্ম</p>
+   <div class="row justify-content-center mt-4">
+        <div class="col-12 col-md-auto">
+          <a class="btn btn-light btn-custom">বাংলা কোড রানার</a>
+        </div>
+        <div class="col-12 col-md-auto">
+          <a href="#" class="btn btn-warning btn-custom">বাংলা কোড ➝ সি কোড</a>
+        </div>
+        <div class="col-12 col-md-auto">
+          <a href="#" class="btn btn-success btn-custom">বাংলা প্রোগ্রামিং</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Info Section -->
+  <section class="info-section container">
+    <div class="row align-items-center">
+
+      <!-- Info Text + Buttons -->
+      <div class="col-md-6 order-1 order-md-1">
+        <h2>বাংলা ➝ সি কোড কী?</h2>
+        <p>
+          <strong>বাংলা ➝ সি কোড</strong> একটি উদ্ভাবনী টুল যা বাংলা ভাষায় লেখা কোডকে স্বয়ংক্রিয়ভাবে C প্রোগ্রামিং ভাষায় রূপান্তর করে। এর লক্ষ্য হলো বাংলা ভাষাভাষী শিক্ষার্থী ও প্রোগ্রামারদের জন্য কোডিং শেখাকে সহজ, সাবলীল ও মাতৃভাষাভিত্তিক করে তোলা।
+        </p>
+
+        <!-- Documentation and Example Buttons -->
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="documentation.html" class="btn btn-outline-primary">📘 ডকুমেন্টেশন</a>
+          <a href="examples.html" class="btn btn-outline-success">💡 উদাহরণ</a>
+        </div>
+      </div>
+
+      <!-- Code Block Instead of Image (Left Aligned) -->
+      <div class="col-md-6 mt-4 mt-md-0 order-2 order-md-2 text-start">
+        <pre><code>
+<span class="keyword">পূর্ণ</span> <span class="function">মৌলিক</span>() {
+  <span class="keyword">পূর্ণ</span> নাম্বার;
+  <span class="function">দেখাও</span> (<span class="string">"একটি সংখ্যা নিই:"</span>);
+  <span class="function">নাও</span>(<span class="string">"%প"</span>, &amp;নাম্বার);
+  <span class="function">দেখাও</span>(<span class="string">"%প\n"</span>, নাম্বার);
+  <span class="keyword">ফেরত</span> ০;
+}
+
+<span class="comment">//বাংলা ➝ সি কোড </span>
+<span class="keyword">#include</span> &lt;stdio.h&gt;
+<span class="keyword">int</span> main() {
+   <span class="keyword">int</span> নাম্বার;
+   <span class="function">printf</span>(<span class="string">"একটি সংখ্যা নিই:"</span>);
+   <span class="function">scanf</span>(<span class="string">"%d"</span>, &amp;নাম্বার);
+   <span class="function">printf</span>(<span class="string">"%d\n"</span>, নাম্বার);
+   <span class="keyword">return</span> 0;
+}
+        </code></pre>
+      </div>
+
+      <!-- Launch Button -->
+      <div class="col-12 text-center mt-4 order-3 order-md-3">
+        <a href="bangla-code-runner.html" class="btn btn-primary btn-launch">🚀 চালু করুন</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>তৈরি করেছেন <strong>মোঃ আনিসুর রহমান</strong> | <a href="https://anisurrahmanju.github.io/BanglaCLang/">আমার প্রজেক্ট</a></p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
