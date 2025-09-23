@@ -1,9 +1,10 @@
 /* Base Layout */
 body {
   font-family: 'Hind Siliguri', sans-serif;
-  background: linear-gradient(to right, #f7f8fc, #eef2f3);
+  background: #f7f8fc;
   margin: 0;
   padding: 0;
+  color: #000; /* black text */
 }
 
 /* Header */
@@ -43,10 +44,12 @@ header p {
 /* Features Section */
 .features {
   margin: 80px auto;
+  padding: 0 15px; /* small horizontal padding */
 }
 
+/* Feature Card — updated comfortable colored backgrounds */
 .feature-card {
-  background: white;
+  background: #E3F2FD; /* Soft pastel blue */
   border-radius: 20px;
   padding: 40px 25px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -55,6 +58,24 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: #000; /* black text */
+  border: 2px solid #90CAF9; /* matching pastel blue border */
+}
+
+/* Different background for each card for variety */
+.features .col-md-4:nth-child(1) .feature-card {
+  background: #E3F2FD; /* Soft pastel blue */
+  border-color: #90CAF9;
+}
+
+.features .col-md-4:nth-child(2) .feature-card {
+  background: #E0F7FA; /* Soft light cyan */
+  border-color: #81D4FA;
+}
+
+.features .col-md-4:nth-child(3) .feature-card {
+  background: #E8F5E9; /* Soft light green */
+  border-color: #A5D6A7;
 }
 
 .feature-card:hover {
@@ -78,7 +99,7 @@ header p {
   overflow: auto;
   white-space: pre-wrap;
   box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
-  height: 220px; /* Same height for all */
+  height: 220px;
   margin-top: 20px;
 }
 
@@ -120,11 +141,12 @@ footer a:hover {
   text-decoration: underline;
 }
 
- a {
+/* Link Styling */
+a {
   color: #00c6ff;
   text-decoration: none;
 }
 
- a:hover {
+a:hover {
   text-decoration: underline;
 }
