@@ -59,7 +59,6 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   color: #000; /* black text */
-  text-align:justify;
   border: 2px solid #90CAF9; /* matching pastel blue border */
 }
 
