@@ -59,6 +59,7 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   color: #000; /* black text */
+  text-align:justify;
   border: 2px solid #90CAF9; /* matching pastel blue border */
 }
 
@@ -66,16 +67,19 @@ header p {
 .features .col-md-4:nth-child(1) .feature-card {
   background: #E3F2FD; /* Soft pastel blue */
   border-color: #90CAF9;
+  text-align:justify;
 }
 
 .features .col-md-4:nth-child(2) .feature-card {
   background: #E0F7FA; /* Soft light cyan */
   border-color: #81D4FA;
+  text-align:justify;
 }
 
 .features .col-md-4:nth-child(3) .feature-card {
   background: #E8F5E9; /* Soft light green */
   border-color: #A5D6A7;
+  text-align:justify;
 }
 
 .feature-card:hover {
