@@ -1,5 +1,7 @@
 /* Base Layout */
 body {
+  background-image: url("/bg.jpg");
+  background-repeat: no-repeat;
   font-family: 'Hind Siliguri', sans-serif;
   background: #f7f8fc;
   margin: 0;
