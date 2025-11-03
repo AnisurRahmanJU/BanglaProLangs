@@ -110,23 +110,23 @@ header p {
 .code-block .keyword {
   color: #569cd6;
   font-weight: bold;
-  font-family: 'Hind Siliguri';
+ 
 }
 
 .code-block .string {
   color: #d69d85;
-  font-family: 'Hind Siliguri';
+  
 }
 
 .code-block .comment {
   color: #6a9955;
   font-style: italic;
-  font-family: 'Hind Siliguri';
+
 }
 
 .code-block .function {
   color: #dcdcaa;
-  font-family: 'Hind Siliguri';
+
 }
 
 /* Footer */
