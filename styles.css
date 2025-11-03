@@ -1,6 +1,6 @@
 /* Base Layout */
 body {
-  font-family: 'Hind Siliguri', sans-serif;
+  font-family: 'Hind Siliguri';
   background: #f7f8fc;
   margin: 0;
   padding: 0;
@@ -97,7 +97,7 @@ header p {
   color: #d4d4d4;
   padding: 20px;
   border-radius: 10px;
-  font-family: 'Courier New', monospace;
+  font-family: 'Hind Siliguri';
   font-size: 0.95rem;
   overflow: auto;
   white-space: pre-wrap;
