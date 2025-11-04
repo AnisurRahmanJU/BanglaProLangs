@@ -4,4 +4,4 @@
 > প্রথম রিলিজ ২০২০ সাল। প্রতিনিয়ত আপডেট হচ্ছে। বর্তমান ভার্সন ৪.৫। 
 
 
-<img src="bproglangs.PNG">
+<img src="bproglangs.PNG"> 
